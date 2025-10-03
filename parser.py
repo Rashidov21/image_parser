@@ -22,4 +22,4 @@ for element in strong_tags:
         download_url = "https://sibmama.ru" + img.get("src")
         wget.download(url=download_url, out="images/")
         print("Dowloaded !")
-        time.sleep(1)
+        time.sleep(1) 
